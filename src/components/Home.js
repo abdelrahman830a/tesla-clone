@@ -11,6 +11,8 @@ function Home() {
         backgroundImg="model-s.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing Inventory"
+        leftLink="https://www.tesla.com/models/design#overview"
+        rightLink="https://www.tesla.com/drive?selectedModel=models"
       />
       <Sections
         title="Model Y"
@@ -18,6 +20,8 @@ function Home() {
         backgroundImg="model-y.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing Inventory"
+        leftLink="https://www.tesla.com/modely/design#overview"
+        rightLink="https://www.tesla.com/drive?selectedModel=modely"
       />
       <Sections
         title="Model 3"
@@ -25,6 +29,9 @@ function Home() {
         backgroundImg="model-3.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing Inventory"
+        leftLink="https://www.tesla.com/model3/design#overview"
+        rightLink="https://www.tesla.com/drive?selectedModel=model3"
+
       />
       <Sections
         title="Model X"
@@ -32,6 +39,8 @@ function Home() {
         backgroundImg="model-x.jpg"
         leftBtnText="Custom Order"
         rightBtnText="Existing Inventory"
+        leftLink="https://www.tesla.com/modelx/design#overview"
+        rightLink="https://www.tesla.com/drive?selectedModel=modelx"
       />
       <Sections
         title="Lowest Cost Solar Panels in America"
@@ -39,6 +48,8 @@ function Home() {
         backgroundImg="solar-panel.jpg"
         leftBtnText="Order Now"
         rightBtnText="Learn More"
+        leftLink="https://www.tesla.com/energy/design"
+        rightLink="https://www.tesla.com/solarpanels"
       />
       <Sections
         title="Solar for New Roofs"
@@ -46,12 +57,16 @@ function Home() {
         backgroundImg="solar-roof.jpg"
         leftBtnText="Order Now"
         rightBtnText="Learn More"
+        leftLink="https://www.tesla.com/solarroof/design"
+        rightLink="https://www.tesla.com/solarroof"
       />
       <Sections
         title="Accessories"
         describtion=""
         backgroundImg="accessories.jpg"
         leftBtnText="Shop Now"
+        leftLink="https://shop.tesla.com/"
+        
       />
     </Container>
   );

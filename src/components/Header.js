@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <Conatiner>
-      <a>
+      <a href="https://tesla.com">
         <img src="/images/logo.svg" alt="TESLA Logo" />
       </a>
 
@@ -19,7 +19,7 @@ const Header = () => {
         {cars &&
           cars.map((car, index) => (
             <p>
-              <a key={index} href="#">
+              <a key={index} href="https://tesla.com">
                 {car}
               </a>
             </p>
@@ -28,10 +28,10 @@ const Header = () => {
 
       <RightMenu>
         <p>
-          <a href="#">Shop</a>
+          <a href="https://shop.tesla.com/">Shop</a>
         </p>
         <p>
-          <a href="#">Tesla Account</a>
+          <a href="https://www.tesla.com/teslaaccount">Tesla Account</a>
         </p>
         <CustomMenu onClick={() => setBurgerStatus(true)} />
       </RightMenu>
@@ -46,43 +46,43 @@ const Header = () => {
         ))}
         </CarsSmallRemove>
         <li>
-          <a href="#">Existing Inventory</a>
+          <a href="https://www.tesla.com/inventory/new/m3">Existing Inventory</a>
         </li>
         <li>
-          <a href="#">Used Inventory</a>
+          <a href="https://www.tesla.com/inventory/used/m3">Used Inventory</a>
         </li>
         <li>
-          <a href="#">Trade-in</a>
+          <a href="https://www.tesla.com/tradein">Trade-in</a>
         </li>
         <li>
-          <a href="#">Cybertruck</a>
+          <a href="https://www.tesla.com/cybertruck">Cybertruck</a>
         </li>
         <li>
-          <a href="#">Roadster</a>
+          <a href="https://www.tesla.com/roadster">Roadster</a>
         </li>
         <li>
-          <a href="#">Semi</a>
+          <a href="https://www.tesla.com/fleet">Semi</a>
         </li>
         <li>
-          <a href="#">Charging</a>
+          <a href="https://www.tesla.com/charging">Charging</a>
         </li>
         <li>
-          <a href="#">Powerwall</a>
+          <a href="https://www.tesla.com/powerwall">Powerwall</a>
         </li>
         <li>
-          <a href="#">Commercial Energy</a>
+          <a href="https://www.tesla.com/solarpanels">Commercial Energy</a>
         </li>
         <li>
-          <a href="#">Utilities</a>
+          <a href="https://www.tesla.com/megapack">Utilities</a>
         </li>
         <li>
-          <a href="#">Test Drive</a>
+          <a href="https://www.tesla.com/drive">Test Drive</a>
         </li>
         <li>
-          <a href="#">Find Us</a>
+          <a href="https://www.tesla.com/findus">Find Us</a>
         </li>
         <li>
-          <a href="#">Support</a>
+          <a href="https://www.tesla.com/support">Support</a>
         </li>
         <li>
           <a href="#">United States</a>

@@ -8,6 +8,8 @@ function section({
   backgroundImg,
   leftBtnText,
   rightBtnText,
+  leftLink,
+  rightLink,
 }) {
   return (
     <Wrap bgImg={backgroundImg}>
@@ -21,8 +23,8 @@ function section({
       <div>
         <Fade bottom>
         <ButtonGroup>
-          <LeftButton>{leftBtnText}</LeftButton>
-          {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
+          <LeftButton><a href={leftLink}>{leftBtnText}</a></LeftButton>
+          {rightBtnText && <RightButton><a href={rightLink}>{rightBtnText}</a></RightButton>}
         </ButtonGroup>
         </Fade>
 
@@ -76,12 +78,20 @@ const LeftButton = styled.div`
   font-size: 12px;
   cursor: pointer;
   margin: 8px;
+
+  a{
+    color: white;
+  }
 `;
 
 const RightButton = styled(LeftButton)`
   background-color: white;
   color: black;
   opacity: 0.65;
+
+  a{
+    color: black;
+  }
 `;
 
 const DownArrow = styled.img`
